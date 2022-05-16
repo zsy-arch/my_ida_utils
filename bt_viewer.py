@@ -60,6 +60,7 @@ def buildTree(bts: BinaryTreeStruct, ea: int) -> Node:
 
 def run():
     bts = BinaryTreeStruct(0, 4, 8, 16)
+    # 0x0000028A72FD3FD0 改为二叉树root地址
     root = buildTree(bts, 0x0000028A72FD3FD0)
     print(root)
     pass
