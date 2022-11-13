@@ -1,5 +1,7 @@
 # my_ida_utils
 
+自己瞎写的+收集大佬们的IDA脚本
+
 ## bt_viewer
 打开IDA, 找到一个二叉树.
 按住alt + f7键, 运行脚本.
